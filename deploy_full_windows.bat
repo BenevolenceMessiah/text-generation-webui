@@ -3,16 +3,25 @@ setlocal
 
 :: Install extensions if necssary 
 :: git submodule update --init --recursive
+echo ---------------------------------------------------------------
 echo Starting installation of extension repos if they are not installed...
+echo ---------------------------------------------------------------
 cd extensions
 if exist api\ goto ImportData
 git clone https://github.com/BenevolenceMessiah/api.git
+echo ---------------------------------------------------------------
 git clone https://github.com/DavG25/text-generation-webui-code_syntax_highlight.git code_syntax_highlight
+echo ---------------------------------------------------------------
 git clone https://github.com/mamei16/LLM_Web_search.git
+echo ---------------------------------------------------------------
 git clone https://github.com/BenevolenceMessiah/ui_tweaks.git
+echo ---------------------------------------------------------------
 git clone https://github.com/flurb18/AgentOoba.git
+echo ---------------------------------------------------------------
 git clone https://github.com/xr4dsh/CodeRunner.git
+echo ---------------------------------------------------------------
 git clone https://github.com/erew123/alltalk_tts.git
+echo ---------------------------------------------------------------
 goto ImportData
 
 :ImportData
