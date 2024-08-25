@@ -13,6 +13,8 @@
 /softprompts
 /torch-dumps
 /training/datasets
+/unused_scripts
+Import_User_Data.bat
 
 /CMD_FLAGS.txt
 /img_bot*
