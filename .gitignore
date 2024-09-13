@@ -14,7 +14,6 @@
 /torch-dumps
 /training/datasets
 /unused_scripts
-/Import_User_Data.bat
 
 /CMD_FLAGS.txt
 /img_bot*
@@ -23,6 +22,8 @@
 /notification.mp3
 /settings*.json
 /settings*.yaml
+/Import_User_Data.bat
+/config.yml
 
 .chroma
 .DS_Store
