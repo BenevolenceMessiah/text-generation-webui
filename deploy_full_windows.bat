@@ -200,7 +200,7 @@ goto Menu1
 echo Running installation or Web UI if installed...
 echo ---------------------------------------------------------------
 start call start_windows.bat
-goto Menu1
+goto ExtensionsCheck
 
 :RunDocker
 ::Install CodeRunner Docker
@@ -221,7 +221,7 @@ cd CodeRunner
 start call docker compose up
 cd ..
 cd ..
-goto Menu1
+goto ExtensionsCheck
 
 :Discordbot
 echo Running Discord bot config file...
