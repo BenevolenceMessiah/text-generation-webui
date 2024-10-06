@@ -85,7 +85,7 @@ git clone https://github.com/flurb18/AgentOoba.git
 echo ---------------------------------------------------------------
 git clone https://github.com/xr4dsh/CodeRunner.git
 echo ---------------------------------------------------------------
-git clone https://github.com/erew123/alltalk_tts.git
+git clone -b alltalkbeta https://github.com/erew123/alltalk_tts.git
 echo ---------------------------------------------------------------
 goto Menu1
 
